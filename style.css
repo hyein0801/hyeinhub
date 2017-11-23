@@ -1,0 +1,102 @@
+/* =====================================
+              STYLE
+===================================== */
+html, body {height: 100%;}
+
+body {
+    background-color: #fcf9f7;
+}
+
+.side_header {
+    width: 350px;
+    height: 100%;
+    position: fixed;
+
+    background-color: #0d1620;
+    background-image: url(snb_images/bg_hyein_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.side_lis {    
+    display: table;
+}
+.side_lis li {
+    padding: 20px;
+    
+    display: table-cell;
+    text-align: right;    
+    vertical-align: middle;
+    
+    margin: 10px 0;
+    font-family: "Noto Sans CJK";
+    font-weight: 200;
+    font-size: 40px;
+    color: rgba(255,255,255,0.8);
+    background-color: none;
+}
+.lis {
+    width: 350px;
+    height: 40px;
+    color: white;
+}
+.side_lis li:hover {    
+    font-weight: 400;
+    color: rgba(255,255,255,1);    
+    background-color: #ce8583;
+}
+.side_lis {
+    overflow-y: auto;
+}
+.portfoli_manu a{
+    margin: 0 20px;
+}
+
+
+    /* 
+    	contents wrap
+    					*/
+
+.door-wrap {
+    padding-left: 350px;    
+}
+
+
+
+
+    /* 
+    	contents 
+    				*/
+
+.door {
+    border: 1px solid #f3f3f3;
+    padding: 50px 0;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    background-color: white;
+}
+.center {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.center p{
+    font-family: "Noto Sans CJK";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+}
+.center .ment:hover {
+    opacity: 0.5;
+    font-weight: 400;
+}
+.copy_name {
+    margin: 20px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 200;
+    color: #cccccc;
+    position: absolute;
+    bottom: 0;
+}
