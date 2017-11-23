@@ -1,0 +1,348 @@
+body h2 {
+    font-size: 32px;
+    font-weight: 100;
+}
+body h3 {
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+    font-size: 40px;
+    margin: 25px 0;
+}
+.purchase_btn_buy {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+    background-color: #eb7c23;
+    border: .5px solid #eb7c23;    
+    width: 230px;
+    padding: 13px 0;
+    margin: 0 10px;
+    
+    font-family: "Noto Sans CJK KR";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+.purchase_btn_cart {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    
+    border: 0.5px solid #eb7c23;
+    width: 230px;
+    padding: 13px 0;
+    margin: 0 10px;
+    
+    font-family: "Noto Sans CJK KR";
+    font-weight: 400;
+    font-size: 14px;
+    color: #eb7c23;
+}
+.detail_-_ico {
+    margin: 30px 0;
+}
+h3 a {
+    margin: 0 3px;
+}
+
+
+    /* TB_sub_section_01 */
+
+.sub_wrap_01 {
+    height: 350px;
+    background-image: url(images/pattern.png);
+    background-size: auto;
+    background-position: center center; 
+}
+@media (min-width:768px){
+    .sub_wrap_01 {height: 880px;}
+}
+.sub_wrap_01 .sub_section_01 {
+    max-width: 1200px;
+    height: 880px;
+    margin: -55px auto;
+    position: relative;
+}
+.detail_model {
+    display: inline-block;
+}
+.detailpage_main_model {
+    margin-top: 0;
+    max-width: 100%;
+}
+@media (min-width:768px){
+    .detailpage_main_model{margin-top: 150px;}    
+}
+.sub_model_01 {
+    max-width: 100%;
+    margin-top: 100px;
+}
+.detail_explan {
+    display: none;
+    max-width: 300px;
+    height: 600px;
+    padding: 60px;
+    
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    
+    background-image: url(images/detailpage/detailpage_text_box.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width:768px){
+    .detail_explan {max-width: 490px; display: block;}    
+}
+.explan-top {
+    margin-bottom: 40px;
+}
+.detail_explan img {
+    display: inline-block;
+}
+
+.accordion h3 {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 14px;
+    line-height: auto;
+    color: #000;
+    opacity: 0.4;
+    
+    margin: 10px 0;
+}
+.accordion h3 a {
+    float: right;
+    display: inline;
+}
+.accordion P {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    line-height: 1.2;
+    color: #000;
+    opacity: 0.3;
+    
+    margin: 5px 0;
+}
+.accordion_conts {
+    padding: 0 10px;
+    height: 60px;
+    overflow-y: scroll;
+}
+
+.bag_star_score img {
+    vertical-align: middle;
+    margin: 15px 10px 10px 0;
+}
+.bag_star_score {
+    font-family: "Athelas";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: auto;
+    color: #cacaca;
+}
+
+.bag_star_score, .bag_name_tit, .bag_price {
+    margin: 0;
+}
+.bag_name_tit {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: -0.04em;
+    color: #1e1b18;
+}
+.bag_price {
+    width: 510px;    
+    height: 100px;
+
+    display: table;
+}
+.bag_price p {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 100%;
+    line-height: 1.7;
+    color: #b5b5b5;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.detail_explan .sp_01 {
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: auto;
+    color: #eb7c23;
+    
+    margin-left: 45px;
+}
+.detail_explan .sp_02 {
+    text-decoration: line-through;
+    font-weight: 500;
+    opacity: 0.4;
+    margin-left: 10px;
+}
+.detail_explan .sp_03 {
+    font-weight: 500;
+    opacity: 0.4;
+    color: #1e1b18;
+
+    margin-left: 35px;
+}
+.detail_explan .sp_04 {
+    font-size: 14px;    
+    font-weight: 400;
+    opacity: 0.4;
+    margin-left: 10px;
+}
+.qm_ico {
+    width: 14px;
+    opacity: 0.8;
+}
+.detail_text {
+    width: 500px;
+}
+
+
+    /* TB_sub_section_02 */
+.sub_wrap_02 {
+    margin-bottom: 50px;
+}
+.section_breadcrumbs_wrap {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: auto;
+    color: #1e1b18;
+    
+    opacity: 0.1;
+    margin: 15px 0;
+    
+    display: none;
+}
+@media (min-width:768px){
+    .section_breadcrumbs_wrap {display: block;}
+}
+.sub_wrap_02 h2 {
+    margin-top: 20px;
+}
+.section_02_sub br {
+    display: none;
+}
+@media (min-width:768px){
+    .section_02_sub br {display: inline;}
+}
+
+.detail_view_wrap {
+    text-align: center;
+    background-image: url(images/detailpage/F.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.detail_view_wrap p {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 0.025em;
+    line-height: 1.5;
+    color: #1e1b18;    
+    opacity: 0.5;
+    max-width: 1100px;
+    margin: 15px auto;
+}
+@media (min-width:768px){
+    font-size: 16px;    
+}
+.view_lis_bag {
+    width: 380px;
+    max-width: 100%;
+}
+
+
+    /* TB_sub_section_03&04 */
+
+.wrap_03 {
+    width: 100%;
+    height: 550px;
+    
+    background-image: url(images/detailpage/fullback_model-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrap_04 {
+    width: 100%;
+    height: 750px;
+    
+    background-image: url(images/detailpage/fullback_model-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.wrap_03 p, .wrap_04 p {
+    display: none;
+}
+
+    /* TB_sub_section_05 */
+
+.section_05_sub {
+    margin-bottom: 80px;
+    height: auto;
+}
+.sub_wrap_05 h2 {
+    font-weight: 100;
+}
+.sub_wrap_05 h3 {
+    letter-spacing: -0.025em;
+    line-height: auto;
+}
+.recommended_wrap {
+    text-align: center;
+    margin: 110px 0 50px 0;
+}
+
+.re_images_lis span {
+    font-weight: 600;
+    color: #1e1b18;
+}
+.re_lis {
+    max-width: 100%;
+    text-align: center;
+}
+ 
+.re_images_lis p {
+    text-align: center;
+    
+    font-family: "Noto Sans CJK KR";
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #646261;
+}
+.sale_ico_01, .sale_ico_02 {
+    max-width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+[class*="re_lis_0"] {
+    border: 1px solid #d0d0d0;     
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    max-width: 100%;    
+}
+.recommended_bag {
+    display: inline;
+    width: 100%;
+}

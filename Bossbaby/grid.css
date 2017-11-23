@@ -1,0 +1,61 @@
+/* =====================================
+              CSS RESET
+===================================== */
+html, body, div, span, object, iframe, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+h1, h2, h3, h4, h5, h6,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {display:block;}
+ul li{list-style:none;}
+a {margin: 0; padding: 0; border: 0; vertical-align: baseline; background: transparent; text-decoration: none; color: inherit; display: inline-block;}
+img {vertical-align: bottom;}
+
+
+/* =====================================
+               COMMON
+===================================== */
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+[class*="section_"] {max-width: 1200px; margin: 0 auto;}
+
+/* =====================================
+            GRID SYSTEM
+===================================== */
+
+[class*="col_"] {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+
+    position: relative;
+    height: 100%;
+    display: table;
+}
+@media (min-width:768px){
+    .col_1  {width: 8.33%;}
+    .col_2  {width: 16.66%;}
+    .col_3  {width: 25%;}
+    .col_4  {width: 33.33%;}
+    .col_5  {width: 41.66%;}
+    .col_6  {width: 50%;}
+    .col_7  {width: 58.33%;}
+    .col_8  {width: 66.66%;}
+    .col_9  {width: 75%;}
+    .col_10 {width: 83.33%;}
+    .col_11 {width: 91.66%;}
+    .col_12 {width: 100%;}
+}

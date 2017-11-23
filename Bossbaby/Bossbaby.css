@@ -1,0 +1,429 @@
+/*
+* {
+	border: 1px solid red !important;
+}
+*/
+element.style {
+    overflow: visible;
+    height: initial;
+}
+html, body { height: 100%; }
+h2 {
+    font-family: "Joint by PizzaDude";
+    font-weight: 400;
+    font-size: 50px;
+    color: #58aaf8;     
+}
+h3 {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    line-height: 1.5;
+    color: #000; 
+}
+p {
+    font-family: "Noto Sans CJK KR";
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 1.7;
+    color: #000;       
+}
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    /* Bossbaby_nav */
+
+.micro_nav {
+    display: table;
+    width: 100%;
+    
+    text-align: center;    
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    
+
+    padding: 25px 0; 
+    background-color: rgba(0,135,205,0.5);
+}
+.menu_lis {
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu_lis a {
+    font-family: "Chalkduster";
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: -0.07em;    
+    color: #fff;
+    
+    margin: 0 50px;
+}
+.menu_lis a:hover {
+    color: #fbdb5f;
+}
+
+    /* Bossbaby_control */
+
+.control_section {
+    height: 100%;
+    position: fixed;
+    right: 10%;    
+    top: 50%;
+    margin: -50px;
+}
+.control_btn_box {
+    width: 10px;
+}
+.control_btn {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+.control_btn:hover {
+    background-color: #fff;
+}
+
+
+    /* top_banner */
+
+.bnr_bg {
+    background: -webkit-linear-gradient(#00bdf3, #00a5e7, #0087cd);
+    background: -o-linear-gradient(#00bdf3, #00a5e7, #0087cd);
+    background: -moz-linear-gradient(#00bdf3, #00a5e7, #0087cd);    
+    width: 100%;
+    height: 100%;
+    Min-height: 720px;
+    
+    display: table;
+}
+.container {
+    background-color: #fff;
+    
+    width: 70%;
+    height: 70%;
+  
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 50px;
+    
+    Min-height: 720px;      
+    overflow: hidden;
+}
+.bnr_bg .container {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.bg_banner h2, .bg_banner p {
+    font-family: "Chalkduster";
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: -0.07em; 
+    color: #58aaf8;    
+}
+.bg_banner p {
+    font-size: 35px;    
+    letter-spacing: -0.05em; 
+}
+
+.main_title_wrap {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.top_baby_wrap {
+    display: table-cell;
+    vertical-align: middle;  
+}
+.main_title, .top_baby {
+    max-width: 100%;
+}
+.coming-soon {
+    font-family: "Chalkduster";
+    font-size: 25px;
+    letter-spacing: -0.08em;
+    color: #58aaf8;
+}
+.pn_logo {
+    width: 100px;
+    display: block;
+    position: absolute;
+    left: 0;
+    
+    opacity: 0.5;
+}
+.century-fox-logo {
+    width: 50px;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    opacity: 0.5;    
+}
+.dreamworks-logo {
+    width: 200px;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    opacity: 0.5;
+}
+
+
+    /* 1. About movie */
+.about_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.about_img {
+    text-align: center;
+}
+.cookie_baby {
+    max-width: 100%;
+}
+.about_img vertical {
+    text-align: right;
+}
+.star_score {
+    margin: 10px 0;
+}
+.details {
+    font-weight: 100;
+    line-height: 1.6;    
+    opacity: 0.3;
+    margin: 50px 0;
+}
+.details span {
+    font-weight: 500;
+    margin-right: 10px;
+}
+    
+    /* 2. Sinopsys */
+
+.sinopsys_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /*
+    background-image: url(images/sinop_bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    */
+}
+.sinopsys_bg .container {
+    background-color: rgba(0,0,0,0)
+}
+.sinopsys_txt {
+    color: #666666;
+    margin: 30px 0;
+}
+
+.sinopsys_ico {
+    width: 50%;
+    margin: 50px 0;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+.sinopsys_ico img {
+    max-width: 100%;
+}
+.sinopsys_ico p {
+    max-width: 100%;
+}
+.ico_line_bg {   
+    background-image: url(images/ico-line.png);
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+.num01 {
+    margin: 15px 0;
+}
+.num03 {
+    margin-top: 5px;
+}
+.sinopsys_ico p{
+    font-family: "Noto Sans CJK KR";
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.7;
+    color: #58aaf8;     
+}
+.sinopsys_ico p span {
+    font-weight: 900;    
+}
+
+
+    /* 3. Characters */
+ 
+.characters_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.characters_txtbox {
+    border: 1px solid #0093d8;
+    padding: 15px 30px;
+    border-radius: 50px;
+    vertical-align: bottom;
+}
+.characters_txtbox p {
+    text-align: left;
+}
+.characters_bg img {
+    max-width: 100%;
+}
+.characters_bg .vertical {
+    vertical-align: middle;
+}
+.wire {
+    margin: 50px 0;
+}
+.col_9 {
+    text-align: center;
+}
+.teach-baby_box {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+    /* 4. Feature films */
+
+.feature-film_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-film_img, .feature-film_lis img {
+    width: 100%;
+}
+.main-film_txt {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 50px;
+    
+    max-width: 100%;
+    padding: 10px 20px;
+    margin: 20px;
+    
+    position: absolute;
+    bottom: 0;
+}
+.main-film_txt p {
+    text-align: left;
+} 
+.main-film_box {
+    position: relative;
+}
+.sub-film {
+    margin: 5px 0;
+}
+.main-film_txt p {
+    font-weight: 100;
+    color: #fff;
+}
+.feature-film_lis a {
+    display: inline;
+}
+.feature-film_lis a:hover {
+    opacity: 0.7;
+}
+.feature-films_lst .arrow-top_box {
+    margin: 0;
+    max-width: 100%;    
+    height: 100%;
+}
+.feature-film_main {
+    float: left;
+    height: 100%;
+    
+    position: relative;
+}
+
+
+
+
+
+    /* 5. Products */
+.products_bg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.books, .puzzl {
+    max-width: 100%;    
+}
+.books_box, .puzzl_box {
+    display: table-cell;
+    vertical-align: middle;
+}
+.products_box {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+    text-align: center;
+    
+    background-image: url(images/BB_Patterns_blue.png);
+    background-size: cover;
+    display: table;
+}
+
+
+
+
+
+
+    /* footer section */
+
+.footer {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    color: white;
+    
+    display: table;
+}
+.footer_wrap {
+    display: table-cell;
+    vertical-align: middle;
+    
+    padding-bottom: 30px;
+}
+.footer img {
+    width: 25px;
+    margin: 5px;
+}
+.footer_wrap {
+    font-family: "Hannotate SC";
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    color: #fff;
+    
+    background-color: #0096da;  
+}
+.footer_wrap p {
+    font-family: "";
+    font-weight: 100;    
+    font-size: 14px;
+    color: #fff;     
+}
+.footer_wrap a:hover {
+    opacity: 0.8;
+}
+
+
